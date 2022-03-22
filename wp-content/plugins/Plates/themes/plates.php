@@ -457,9 +457,9 @@ setTimeout( function(){
 			<label><h4>Krystal 4D</h4></label>
 				<div style="width: 100%;" id="character-type" class="materials-radio">
 					<label style='border: 3px solid #034694;'><img src="/wp-content/plugins/Plates/themes/style/img/character-types/krystal-character-type.jpg" alt=""><input type="radio" name="material" value="krystal 4d" checked>Krystal 4D</label>
-					<label><img src="http://localhost/nomplates/wordpress/wp-content/plugins/Plates/themes/style/img/character-types/krystal-4d-gel-character-type.jpg" alt=""><input type="radio" name="material" value="krystal gel">Krystal Gel</label>
-					<label><img src="http://localhost/nomplates/wordpress/wp-content/plugins/Plates/themes/style/img/character-types/4d-3mm-character-type.jpg" alt=""><input type="radio" name="material" value="4d 3 mm">Acrylic Block</label>
-					<label><img src="http://localhost/nomplates/wordpress/wp-content/plugins/Plates/themes/style/img/character-types/3d-gel-character-type.jpg" alt=""><input type="radio" name="material" value="3d gel">Black Gel</label>
+					<label><img src="wp-content/plugins/Plates/themes/style/img/character-types/krystal-4d-gel-character-type.jpg" alt=""><input type="radio" name="material" value="krystal gel">Krystal Gel</label>
+					<label><img src="/wp-content/plugins/Plates/themes/style/img/character-types/4d-3mm-character-type.jpg" alt=""><input type="radio" name="material" value="4d 3 mm">Acrylic Block</label>
+					<label><img src="/wp-content/plugins/Plates/themes/style/img/character-types/3d-gel-character-type.jpg" alt=""><input type="radio" name="material" value="3d gel">Black Gel</label>
 				</div>
 			<label><h4>Krystal Colour</h4></label>
 				<div class="materials-radio" id="krystal-colour">
@@ -603,7 +603,7 @@ setTimeout( function(){
 				</div>
 			</div>
 		</div>
-		<div class="previews">
+		<div class="previews" id="previews">
 			<div id="platePreviewRare" class="plates-layer-01">
 				<div class="letter-wrapper">
 					<div id="plate-rare" class="front-plate">

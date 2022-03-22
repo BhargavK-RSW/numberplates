@@ -53,6 +53,7 @@
 }
 #description h3{
 	font-size: 40px;
+	margin-top: 30px;
 }
 #preloader{
 	background-image: url(img/preload.gif);
@@ -707,6 +708,9 @@
 	.previews{
 		min-height: 250px;
 	}
+	#previews{
+		min-height: 120px;
+	}
 	.plates-view{
 		width: 68%;
 		margin-left: 2%;
@@ -793,7 +797,8 @@
 #plate-rare.front-plate div {
 	transform: rotate3d(1, 0, 0, -309deg) rotate3d(0, 1, 0, 0deg) rotate3d(0, 0, 1, -21deg) scale(1.6);
 	box-shadow: 0px 0px 8px rgb(0 0 0 / 50%);
-	background: linear-gradient(180deg,rgba(245,206,42,1) 0%,rgba(245,206,42,1) 90%,rgba(245,206,42,1) 100%);
+	background-image: url("img/yellow1.jpg");
+	/* background: linear-gradient(180deg,rgba(245,206,42,1) 0%,rgba(245,206,42,1) 90%,rgba(245,206,42,1) 100%); */
     z-index: -1;
 }
 #plate div, #plate-rare div {

@@ -144,9 +144,9 @@ function start(){
 };
 var lkk = false;
 function mobileMenu(){		
-	mobOptions.style.top == '100%' ? mobOptions.style.top = 0 : mobOptions.style.top = '100%';
+	mobOptions.style.top == '100%' ? mobOptions.style.top = '390px' : mobOptions.style.top = '100%';
 	if(!lkk){
-		mobOptions.style.top = '0px';
+		mobOptions.style.top = '390px';
 		lkk = true;
 	}	
 }
@@ -725,6 +725,7 @@ function changeCharacterType(){
 		if(checkModificator() == 'rear' || checkModificator() == 'both'){
 			platePreviewRare.classList.add("krystal-text");
 		}
+
 		
 	}else if(this.value == "krystal gel")
 	{
