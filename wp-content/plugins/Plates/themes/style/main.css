@@ -46,13 +46,18 @@
 	margin: 1em 5%;
 	display:  none;
 }
-#description, #description h3, #description h4{
+#description p{	
+		margin-top: 0;
+		margin-bottom: -1.5em;	
+}
+#description ,#description h3, #description h4{
 	font-family: 'Indie Flower', cursive;
 	color: #FFF;
-	font-size: 30px;
+	font-size: 20px;
+	
 }
 #description h3{
-	font-size: 40px;
+	font-size: 30px;
 	margin-top: 30px;
 }
 #preloader{
@@ -105,13 +110,13 @@
 	width: 30%;
 }
 .plates-opptions label{
-	margin-top: 20px;
+	margin-top: 5px;
 }
 .plates-view {
 	width: 65%;
 	margin-left: 5%;
 	background: url(img/blueprint.jpg);
-	min-height: 760px;
+	min-height: 500px;
     height: 100%;
 	vertical-align: middle;
     display: block;
@@ -163,6 +168,7 @@
 
 #mainOptions input, #mainOptions select{
 	border: 1px solid #666;
+	margin-top: -11px;
 }
 #platesMobileOpts label h4{
 	font-weight: 900;
@@ -706,10 +712,11 @@
 		font-size: 24px;
 	}
 	.previews{
-		min-height: 250px;
+		min-height: 210px;
 	}
 	#previews{
-		min-height: 120px;
+		min-height: 0em;
+		margin-top:-50px;
 	}
 	.plates-view{
 		width: 68%;
@@ -717,7 +724,7 @@
 	}
 	#builderBody{
 		width: 97%;
-		margin: 1em 1%;
+		margin: -1em 1%;
 	}
 }
 
@@ -797,7 +804,7 @@
 #plate-rare.front-plate div {
 	transform: rotate3d(1, 0, 0, -309deg) rotate3d(0, 1, 0, 0deg) rotate3d(0, 0, 1, -21deg) scale(1.6);
 	box-shadow: 0px 0px 8px rgb(0 0 0 / 50%);
-	background-image: url("img/yellow1.jpg");
+	background-image: url("img/1.jpg");
 	/* background: linear-gradient(180deg,rgba(245,206,42,1) 0%,rgba(245,206,42,1) 90%,rgba(245,206,42,1) 100%); */
     z-index: -1;
 }

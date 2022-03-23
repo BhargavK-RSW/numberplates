@@ -169,11 +169,11 @@ function closeAllOptions(){
 }
 
 function openOptions(n){
-	if(n.style.maxHeight == "2300px"){
+	if(n.style.maxHeight == "1500px"){
 		n.style.maxHeight = "75px";
 	}else{
 		closeAllOptions();
-		n.style.maxHeight = "2300px";
+		n.style.maxHeight = "1500px";
 	}
 }
 
@@ -870,8 +870,6 @@ function changeTable(){
 			}
 		}
 	}
-	
-	
 }
 
 function changeplateSize(r, k){
