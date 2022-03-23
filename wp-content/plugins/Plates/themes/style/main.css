@@ -75,16 +75,16 @@
 	float: left;
 }
 .ft-depth-thick .letters{
-	text-shadow: -1px 1px 1px #000 !important;
+	text-shadow: -1px 3px 1px !important;
 }
 .ft-depth-doublethick .letters{
-	text-shadow: -2px 2px 1px #000 !important;
+	text-shadow: -2px 5px 2px  !important;
 }
 .ft-depth-triple .letters{
-	text-shadow: -3px 3px 1px #000 !important;
+	text-shadow: -3px 7px 3px !important;
 }
 .ft-depth-regular .letters{
-	text-shadow: 0 0 1px #000 !important
+	text-shadow: 0 0 0px !important
 }
 .ft-445mm432mm{
 	    clip-path: polygon(10% 0px, 90% 0px, 100% 30%, 90% 100%, 10% 100%, 0px 30%) !important;
@@ -94,7 +94,6 @@
 	    clip-path: polygon(10% 0px, 90% 0px, 100% 30%, 90% 100%, 10% 100%, 0px 30%) !important;
     
 }
-
 .ft-295mm243mm{
 	    clip-path: polygon(10% 0px, 90% 0px, 100% 30%, 90% 100%, 10% 100%, 0px 30%) !important;
 }
@@ -344,7 +343,8 @@
 	top: 9px;
 }
 .black {
-	top: 8px;
+	top: 6px;
+	left: 2px;
 }
 .black .reg1, .colour .reg1 {
 	top: 0px;
@@ -361,7 +361,7 @@
 .black .reg5, .colour .reg5 {
 	top: 4px;
 }
-.black .reg6; .colour .reg6 {
+.black .reg6, .colour .reg6 {
 	top: 5px;
 }
 
